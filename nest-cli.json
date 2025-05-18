@@ -19,6 +19,15 @@
         "tsConfigPath": "apps/nestjs-online-store/tsconfig.app.json"
       }
     },
+    "orders": {
+      "type": "application",
+      "root": "apps/orders",
+      "entryFile": "main",
+      "sourceRoot": "apps/orders/src",
+      "compilerOptions": {
+        "tsConfigPath": "apps/orders/tsconfig.app.json"
+      }
+    },
     "users": {
       "type": "application",
       "root": "apps/users",
